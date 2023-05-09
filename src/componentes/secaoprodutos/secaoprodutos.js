@@ -1,10 +1,12 @@
+import './produto.css';
+
 function secaoProdutos(){
     return (
         <div className="container-produtos">
 
-            <div className="section-produto">
+            <div className="section-produto limitar-section">
                 
-                <h2>Nossos Produtos</h2>
+                <h2 className="subtitulos">Nossos Produtos</h2>
                 <p>
                     Trabalhamos com oculos de Grau, Oculos de sol,lentes transition nos modelos masculino,feminino e infantil
                 </p>

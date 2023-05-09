@@ -1,8 +1,11 @@
+import './topo.css';
 export default function topo(){
     return(
         <header>
-            <div className="container-nav">
+            <div className="container-nav limitar-section">
+               
                 <img src="../assets/logo.png"></img>
+                
                 
                 <div className="links">
                     <a href="">PRODUTO</a>
